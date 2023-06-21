@@ -1,0 +1,16 @@
+model_options:
+  test_size: 0.2
+  random_state: 3
+  features:
+    - Age
+    - Sex
+    - ChestPainType
+    - RestingBP
+    - Cholesterol
+    - FastingBS
+    - RestingECG
+    - MaxHR
+    - ExerciseAngina
+    - Oldpeak
+    - ST_Slope
+
