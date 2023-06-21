@@ -1,5 +1,14 @@
 # asi-pjatk-sagemaker-project
 
+## Sources
+Dataset
+[Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
+
+
+```
+pip install -r src/requirements.txt
+```
+
 ## Overview
 
 Kedro project integreted with AWS SageMaker
