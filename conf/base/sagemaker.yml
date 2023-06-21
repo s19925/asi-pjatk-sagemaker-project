@@ -3,7 +3,7 @@ aws:
   bucket: "sagemaker-bucket-heart-diseases"
 
   # AWS SageMaker Executor role ARN
-  execution_role: "arn:aws:iam::383954307445:role/AmazonSageMaker-ExecutionRole"
+  execution_role: "{ARN}"
 
   # use Kedro node tags (recommended) or node names to assign compute resources
   # use __default__ to specify the default values (for all nodes)
@@ -20,7 +20,7 @@ aws:
     # Here you can map for example add `__default__: "my-pipeline"`
     # to make the `__default__` Kedro pipeline appear as `my-pipeline` in SageMaker UI
     pipeline_names_mapping:
-      kedro_pipeline_name: "sagemaker-pipeline-name"
+      kedro_pipeline_name: "{Pipeline Name}"
 docker:
-  image: "383954307445.dkr.ecr.eu-north-1.amazonaws.com/asi-project-repository:latest"
+  image: "{Image URI}"
   working_directory: /home/kedro
