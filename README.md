@@ -56,7 +56,7 @@ Run pipelines in AWS SageMaker
 kedro sagemaker run --auto-build -y
 ```
 
-## Autors
+## Authors
 - Damian Kłys
 - Mateusz Jarecki
 - Tomasz Le Thanh
